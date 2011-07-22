@@ -1,26 +1,28 @@
 Ropevim, rope in vim
 ======================
 
-Ropevim is a vim mode that uses rope_ library to provide features like
-python refactorings and code-assists.
+Ropevim is a vim mode that allows you to use the rope_ library in vim to provide
+features like python refactorings and code-assists.
 
-This vim plugin allow you use rope library in vim very easy.
-Now you dont needed install rope libs in system.
-Also this plugin add vim help with rope commands.
+This vim plugin allow you use the rope library in vim very easily.
+There is no need to install the rope_ library on your system.
+This plugin also adds vim help for rope_ commands.
 
 
 Installation
 ------------
 
-Just copy plugin folders in your ~/.vim directory.
+Just copy the plugin folders into your ~/.vim directory.
 
-Or with pathogen_ clone plugin in your ``bundle`` folder
+Alternatively, if you are using pathogen_, clone the plugin into your ``bundle``
+folder.
 
 
 Settings
 --------
 
-Rope auto assist mapped in Control+Space keys. You can remap it. Example: ::
+By default, rope_ auto assist is mapped to Control+Space. You can remap it. For
+example: ::
 
     imap <buffer><Tab> <M-/>
 
