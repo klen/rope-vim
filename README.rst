@@ -1,6 +1,8 @@
 Ropevim, rope in vim
 ======================
 
+**Use https://github.com/klen/python-mode. It`s more new and powerful plugin.**
+
 Ropevim is a vim mode that allows you to use the rope_ library in vim to provide
 features like python refactorings and code-assists.
 
